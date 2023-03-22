@@ -1,0 +1,562 @@
+/*cabeçalho*/
+header img {
+    height: 25%;
+    width: 25%;
+}
+
+.nav-item a {
+    float: left;
+    color: white;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.nav-item a:hover {
+    background-color: black;
+    color: white;
+}
+
+.nav-linkactive{
+    color: white;
+}
+
+/*Conteudo principal*/
+main{
+    min-height: 500px;
+}
+
+/*banner*/
+#section-banners img {
+    height: 500px;
+}
+
+/* Computadores / Celulares */
+#section-encontre {
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 2%;
+}
+
+#Searchbar {
+    width: 50%;
+    margin: 10px auto;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.right{
+    float:right;
+    width: 52%;
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 40px;
+}
+
+.left{
+    float:left;
+    width: 48%;
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 40px;
+}
+
+#opcoes{
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    transition: transform .3s ease-in-out;
+    margin-left:10px;
+    padding-bottom: 20px;
+
+  }
+img {
+width: 390px;
+height: 250px;
+}
+
+#opcoes .img1:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#opcoes .img2:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+/*Produtos vendidos*/
+#section-vendidos {
+    text-align: center;
+}
+
+#section-vendidos h2 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+#section-vendidos img {
+    height: 300px;
+    border-radius: 10px;
+}
+
+#section-vendidos .card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#section-vendidos .preço {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* SOBRE */
+#section-sobre .Missao-Visao {
+    
+    background-color: #1e1e1e;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 20px;
+   }
+
+   #section-sobre .Valores {
+    background-color: #1e1e1e;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-left: 200px;
+    
+}
+
+/* CONTATO */
+#section-contato {
+    margin: 15px 14px;
+}
+
+#section-contato .Contato {
+    clear: both;
+    text-align: center;
+    color: white;
+    margin: 50px;
+}
+
+.Contato a {
+    background-color: cadetblue;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#section-contato img {
+    vertical-align: middle;
+}
+
+#section-contato .redes-group{
+    background-color: cadetblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.redes-group .fundo-branco{
+    background-color: cadetblue;
+    color: white;
+    margin: auto;
+    padding-left: 250px;
+}
+
+.redes-group img {
+    margin-left: 0px;
+    height: 8%;
+    width: 8%; 
+    vertical-align: middle;
+}
+
+.Maps img{
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    display: block;
+    text-align: center;
+}
+
+/*Rodapé*/
+footer {
+    margin-top: 80px;
+    padding: 0;
+    box-sizing: border-box;
+    clear: both;
+}
+
+.container-footer{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer ul{
+    list-style: none;
+}
+
+.footer {
+    background-color: #1e1e1e;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    Left: 0;
+    bottom: -10px;
+    background-color: cadetblue;
+    height: 2px;
+    box-sizing: border-box;
+    width: 150px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: white;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: white;
+}
+
+/*Botão Voltar topo*/
+#voltar-topo {
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+/* página de login  */
+#section-login{
+    margin-top: 100px;
+}
+
+#section-login h1 {
+    text-align: center;
+}
+
+#section-login input {
+    width: 100%;
+}
+
+/* Formulário de cadastro*/
+#section-cadastro{
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#form-cadastrar {
+    padding: 50px;
+    display: none;
+}
+
+/*PAGINA DE COMPUTADORES*/
+
+.titulo-computadores h1 {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: white;
+    display: inline-block;
+    margin-left: 28%;
+    padding: 8px 8px;
+}
+
+/* PC GAMER*/
+#section-PC-Gamer {
+    background-color: cadetblue;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+#section-PC-Gamer h2 {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: white;
+    display: inline-block;
+    margin: 20px 80px 20px;
+    padding: 8px 20px;
+}
+#section-PC-Gamer h5 {
+    text-align: center;
+}
+#section-PC-Gamer p {
+    text-align: justify;
+    padding-top: 15px;
+}
+#section-PC-Gamer img {
+    height: 300px;
+    border-radius: 10px;
+}
+#section-PC-Gamer .card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#section-PC-Gamer .preço {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Monitores*/
+#section-Monitores {
+
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+#section-Monitores h2 {
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    display: inline-block;
+    margin: 10px 80px 20px;
+    padding: 8px 20px;
+}
+#section-Monitores h5 {
+    text-align: center;
+}
+#section-Monitores p {
+    text-align: center;
+    padding-top: 5px;
+}
+#section-Monitores img {
+    height: 300px;
+    border-radius: 10px;
+}
+#section-Monitores .card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#section-Monitores .preço {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Periféricos*/
+#section-Perifericos {
+    background-color: cadetblue;
+    margin-bottom: none;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+#section-Perifericos h2 {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: white;
+    display: inline-block;
+    margin: 20px 80px 20px;
+    padding: 8px 20px;
+}
+#section-Perifericos h5 {
+    text-align: center;
+}
+#section-Perifericos p {
+    text-align: center;
+    padding-top: 5px;
+}
+#section-Perifericos img {
+    height: 300px;
+    border-radius: 10px;
+}
+#section-Perifericos .card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#section-Perifericos .preço {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*PAGINA DE CELULARES*/
+
+.titulo-celulares h1 {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: white;
+    display: inline-block;
+    margin-left: 24%;
+    padding: 8px 8px;
+}
+
+/* IPHONE*/
+#section-iphone {
+    background-color: cadetblue;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+#section-iphone h2 {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: white;
+    display: inline-block;
+    margin: 20px 80px 20px;
+    padding: 8px 20px;
+}
+#section-iphone h5 {
+    text-align: center;
+}
+#section-iphone p {
+    text-align: center;
+    padding-top: 15px;
+}
+#section-iphone img {
+    height: 350px;
+    border-radius: 10px;
+}
+#section-iphone .card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#section-iphone .preço {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Android*/
+#section-Android {
+
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+#section-Android h2 {
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    display: inline-block;
+    margin: 10px 80px 20px;
+    padding: 8px 20px;
+}
+#section-Android h5 {
+    text-align: center;
+}
+#section-Android p {
+    text-align: center;
+    padding-top: 5px;
+}
+#section-Android img {
+    height: 350px;
+    border-radius: 10px;
+}
+#section-Android .card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#section-Android .preço {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Acessorios*/
+#section-Acessorios {
+    background-color: cadetblue;
+    margin-bottom: none;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+#section-Acessorios h2 {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: white;
+    display: inline-block;
+    margin: 20px 80px 20px;
+    padding: 8px 20px;
+}
+#section-Acessorios h5 {
+    text-align: center;
+}
+#section-Acessorios p {
+    text-align: center;
+    padding-top: 5px;
+}
+#section-Acessorios img {
+    height: 350px;
+    border-radius: 10px;
+}
+#section-Acessorios .card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#section-Acessorios .preço {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
